@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>leafmotive</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 20px;
+                font-family: Arial, sans-serif;
+                background: #f0f0f0;
+            }
+
+            /* 1. Horizontally and vertically centered */
+            .center-both {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            /* 2. Just horizontally centered */
+            .center-horizontal {
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+       {{CONTENT}}
+    </body>
+</html>
